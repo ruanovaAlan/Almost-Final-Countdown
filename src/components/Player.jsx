@@ -6,6 +6,7 @@ export default function Player() {
 
   function handleClick() {
     setEnteredName(input.current.value);
+    input.current.value = ""; // clear input
   }
 
   return (
